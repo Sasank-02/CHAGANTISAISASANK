@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CH SAI SASANK - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: #002b5b;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 10px 0 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        header nav ul li {
+            margin: 0;
+        }
+        header nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: color 0.3s;
+        }
+        header nav ul li a:hover {
+            color: #ffc107;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 100px auto 20px;
+            padding: 30px;
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            border-bottom: 2px solid #002b5b;
+            color: #002b5b;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        section {
+            margin: 20px 0;
+        }
+        #about img {
+            display: block;
+            margin: 20px auto;
+            max-width: 200px;
+            border-radius: 50%;
+            border: 3px solid #002b5b;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .skills, .projects, .experience {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .skills div, .projects div, .experience div {
+            flex: 1 1 calc(50% - 20px);
+            background: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        ul {
+            padding-left: 20px;
+            margin: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 15px 0;
+            background-color: #002b5b;
+            color: #fff;
+            margin-top: 20px;
+        }
+        footer p {
+            margin: 0;
+        }
+        a {
+            color: #002b5b;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        a:hover {
+            color: #ffc107;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CH SAI SASANK</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Internships</a></li>
+                <li><a href="#achievements">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <img src="C:\Users\DELL\Documents\CHAGANTI SAI SASANK_ Portfolio\enhanced_image_4k_advanced.jpeg" alt="Profile Picture">
+        <p>I am an M.Tech Data Science student at SRM University AP with a strong interest in leveraging data analysis, machine learning, and statistical techniques to solve complex real-world problems. I have experience in advanced data preprocessing, feature engineering, and developing scalable web applications. My skills include Python, SQL, and machine learning libraries like TensorFlow and Scikit-learn. I am passionate about applying data science methodologies to extract insights and deliver impactful solutions. I thrive in collaborative environments and am eager to contribute to innovative projects.</p>
+    </section>
+
+    <section id="skills" class="container">
+        <h2>Skills</h2>
+        <div class="skills">
+            <div>
+                <h3>Programming Languages</h3>
+                <p>C/C++, Python, R, Java, HTML, CSS, JavaScript, SQL</p>
+            </div>
+            <div>
+                <h3>Tools & Platforms</h3>
+                <p>Jupyter Notebook, VS Code, Power BI, Google Colab, GitHub, AWS, VirtualBox, Figma</p>
+            </div>
+            <div>
+                <h3>Frameworks</h3>
+                <p>TensorFlow, Keras, Scikit-learn</p>
+            </div>
+            <div>
+                <h3>Specialized Skills</h3>
+                <p>Data Science, Machine Learning, Deep Learning</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="container">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div>
+                <h3>Food Vault Recipe Web Application</h3>
+                <p>Designed a responsive web application using HTML, CSS, and JavaScript for food enthusiasts to share and discover recipes.</p>
+            </div>
+            <div>
+                <h3>Liver Disease Prediction and Analysis</h3>
+                <p>Implemented advanced machine learning techniques for feature selection, achieving high accuracy in predicting liver diseases.</p>
+            </div>
+            <div>
+                <h3>YouTube Data Analysis</h3>
+                <p>Utilized Hadoop Hive, MapReduce, and R to analyze engagement metrics and trends in large-scale YouTube data.</p>
+            </div>
+            <div>
+                <h3>Sudoku Solver</h3>
+                <p>Developed an AI-based optimization algorithm using Simulated Annealing and High Hill Climbing to solve complex Sudoku puzzles.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="container">
+        <h2>Internships</h2>
+        <div class="experience">
+            <div>
+                <h3>Data Analytics Intern</h3>
+                <p>SmartBridge Educational Services | Dec 2023 - Apr 2024</p>
+                <p>Developed interactive dashboards in Tableau for real-time data visualization.</p>
+            </div>
+            <div>
+                <h3>Machine Learning Intern</h3>
+                <p>Finlatics | Dec 2024 - Mar 2025</p>
+                <p>Worked on predictive modeling and financial data analysis.</p>
+            </div>
+            <div>
+                <h3>Academic Intern</h3>
+                <p>Eduskills | Dec 2022 - Mar 2024</p>
+                <p>Provided academic support and conducted workshops on cloud computing and machine learning.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="container">
+        <h2>Education</h2>
+        <div>
+            <h3>SRM University AP</h3>
+            <p>M.Tech, Data Science (2024-26)</p>
+            <p>Amaravati | Present</p>
+        </div>
+        <div>
+            <h3>Pragati Engineering College</h3>
+            <p>B.Tech, Computer Science (2020-24)</p>
+            <p>Surampalem | CGPA: 7.78/10</p>
+        </div>
+        <div>
+            <h3>Narayana Junior College</h3>
+            <p>Intermediate, MPC (2018-20)</p>
+            <p>Kakinada | CGPA: 8.46/10</p>
+        </div>
+        <div>
+            <h3>Aditya Public (E.M) High School</h3>
+            <p>10th (2017-18)</p>
+            <p>Kakinada | CGPA: 9.5/10</p>
+        </div>
+    </section>
+
+    <section id="achievements" class="container">
+        <h2>Certifications</h2>
+        <ul>
+            <li><strong>Data Analysis with Python</strong> by IBM</li>
+            <li><strong>Python Basic Programming</strong> by HackerRank</li>
+            <li><strong>AWS Cloud Practitioner (Global) Certification</strong> conducted by AWS</li>
+            <li><strong>Google Associate Cloud Engineer (Global) Certification</strong> conducted by Google</li>
+            <li><strong>AI Tools</strong> conducted by Be10X</li>
+            <li><strong>Data Visualization with Power BI</strong> by Great Learning</li>
+            <li><strong>Soft Skills Certification</strong> successfully completed through NPTEL SWAYAM</li>
+        </ul>
+    </section>    
+
+    <section id="contact" class="container">
+        <h2>Contact</h2>
+        <p><strong>Linktree:</strong> <a href="https://linktr.ee/SAISASANKCHAGANTI" target="_blank">Visit My Linktree</a></p>
+        <p><strong>Email:</strong> <a href="mailto:saisasankchaganti@gmail.com">saisasankchaganti@gmail.com</a></p>
+        <p><strong>Hackerrank:</strong> <a href="https://www.hackerrank.com/profile/CHSAISASANK" target="_blank">CHSAISASANK</a></p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/Sasank-02" target="_blank">Sasank-02</a></p>
+        <p><strong>LinkedIn:</strong> <a href="http://www.linkedin.com/in/chaganti-sai-sasank-921a3520b" target="_blank">Chaganti Sai Sasank</a></p>
+        <p><strong>LeetCode:</strong> <a href="https://leetcode.com/u/CHAGANTISAISASANK/" target="_blank">CHAGANTISAISASANK</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 CH SAI SASANK. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
