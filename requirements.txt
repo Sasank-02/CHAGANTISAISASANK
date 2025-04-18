@@ -1,0 +1,17 @@
+flask
+pandas
+scikit-learn
+numpy
+ultralytics
+opencv-python
+flask-cors
+torch 
+torchvision 
+torchaudio
+plotly
+deepsort-realtime
+mediapipe
+tensorflow
+keras
+onnxruntime 
+pillow
